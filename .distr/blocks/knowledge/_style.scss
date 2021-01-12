@@ -1,0 +1,37 @@
+@import '_videocard-style.scss';
+
+.knowledge {
+  padding: 126px 0 100px;
+
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__subtitle {
+    max-width: 680px;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #C2CFF2;
+    margin: 0 auto 52px;
+    text-align: center;
+  }
+
+  &__box {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    .js-marquee {
+      width: max-content;
+      display: flex;
+      margin: 0 !important;
+
+      &-wrapper {
+        display: flex;
+      }
+    }
+
+    &_1 {
+      margin-bottom: 36px;
+    }
+  }
+}

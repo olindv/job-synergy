@@ -1,0 +1,98 @@
+.watch {
+    @media (max-width: 1920px) {
+        background: url(../img/watch/watch-bg.png) center center / cover no-repeat;
+        padding: 290px 0;
+        margin-top: -170px;
+        &:before {
+            content: none;
+        }
+    }
+    @media (max-width: 1199px) {
+        &__button {
+            &_link {
+                font-size: 18px;
+                max-width: 467px;
+                padding: 16px 0;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        padding: 240px 0;
+        &__title {
+            font-size: 30px;
+            line-height: 126%;
+            margin-bottom: 20px;
+        }
+        &__description {
+            font-size: 18px;
+            line-height: 140%;
+        }
+        &__row {
+            &-1 {
+                margin-bottom: 40px;
+                max-width: 575px;
+            }
+        }
+        &__store {
+            &_img {
+                max-width: 164px;
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        background: url(../img/watch/watch-bg-mobile.png) center -17vw / cover
+        no-repeat;
+        margin-top: 0;
+        padding: 0 0 31vw 0;
+        margin-bottom: -15vw;
+        &__title {
+            font-size: 22px;
+            line-height: 126%;
+            margin-bottom: 14px;
+        }
+        &__description {
+            font-size: 14px;
+            line-height: 140%;
+        }
+        &__button {
+            &_link {
+                max-width: 301px;
+                padding: 16px 0;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 13px;
+            }
+            &-mobile {
+                display: block;
+            }
+            &-desktop {
+                display: none;
+            }
+        }
+        &__row {
+            &-1 {
+                margin-bottom: 51vw;
+            }
+        }
+        &__store {
+            margin-bottom: 36px;
+            &_img {
+                margin-right: 12px;
+                max-width: 122px;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        background: url(../img/watch/watch-bg-mobile.png) center -2vw / cover no-repeat;
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 33vw;
+
+        &__row {
+            &-1 {
+                margin-bottom: 65vw;
+            }
+        }
+    }
+}

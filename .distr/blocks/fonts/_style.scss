@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'HeliosExtC';
+    src: local('HeliosExtC'),
+        url('fonts/HeliosExtC.woff2') format('woff2'),
+        url('fonts/HeliosExtC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosExtC';
+    src: local('HeliosExtC Bold Italic'), local('HeliosExtC-BoldItalic'),
+        url('fonts/HeliosExtC-BoldItalic.woff2') format('woff2'),
+        url('fonts/HeliosExtC-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HeliosExtC';
+    src: local('HeliosExtC Italic'), local('HeliosExtC-Italic'),
+        url('fonts/HeliosExtC-Italic.woff2') format('woff2'),
+        url('fonts/HeliosExtC-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HeliosExtC';
+    src: local('HeliosExtC Bold'), local('HeliosExtC-Bold'),
+        url('fonts/HeliosExtC-Bold.woff2') format('woff2'),
+        url('fonts/HeliosExtC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Italic'), local('TTNorms-Italic'),
+        url('fonts/TTNorms-Italic.woff2') format('woff2'),
+        url('fonts/TTNorms-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Heavy Italic'), local('TTNorms-HeavyItalic'),
+        url('fonts/TTNorms-HeavyItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms ExtraBold'), local('TTNorms-ExtraBold'),
+        url('fonts/TTNorms-ExtraBold.woff2') format('woff2'),
+        url('fonts/TTNorms-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Light'), local('TTNorms-Light'),
+        url('fonts/TTNorms-Light.woff2') format('woff2'),
+        url('fonts/TTNorms-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Medium Italic'), local('TTNorms-MediumItalic'),
+        url('fonts/TTNorms-MediumItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Light Italic'), local('TTNorms-LightItalic'),
+        url('fonts/TTNorms-LightItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Black'), local('TTNorms-Black'),
+        url('fonts/TTNorms-Black.woff2') format('woff2'),
+        url('fonts/TTNorms-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms ExtraBold Italic'), local('TTNorms-ExtraBoldItalic'),
+        url('fonts/TTNorms-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Thin'), local('TTNorms-Thin'),
+        url('fonts/TTNorms-Thin.woff2') format('woff2'),
+        url('fonts/TTNorms-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms ExtraLight'), local('TTNorms-ExtraLight'),
+        url('fonts/TTNorms-ExtraLight.woff2') format('woff2'),
+        url('fonts/TTNorms-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms ExtraLight Italic'), local('TTNorms-ExtraLightItalic'),
+        url('fonts/TTNorms-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Heavy'), local('TTNorms-Heavy'),
+        url('fonts/TTNorms-Heavy.woff2') format('woff2'),
+        url('fonts/TTNorms-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Thin Italic'), local('TTNorms-ThinItalic'),
+        url('fonts/TTNorms-ThinItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Regular'), local('TTNorms-Regular'),
+        url('fonts/TTNorms-Regular.woff2') format('woff2'),
+        url('fonts/TTNorms-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Black Italic'), local('TTNorms-BlackItalic'),
+        url('fonts/TTNorms-BlackItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Bold Italic'), local('TTNorms-BoldItalic'),
+        url('fonts/TTNorms-BoldItalic.woff2') format('woff2'),
+        url('fonts/TTNorms-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Bold'), local('TTNorms-Bold'),
+        url('fonts/TTNorms-Bold.woff2') format('woff2'),
+        url('fonts/TTNorms-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Medium'), local('TTNorms-Medium'),
+        url('fonts/TTNorms-Medium.woff2') format('woff2'),
+        url('fonts/TTNorms-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Proxima Nova */
+@font-face {
+    font-family: 'Proxima Nova';
+    font-display: auto;
+    src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+        url('fonts/proximanova-black.woff2') format('woff2'),
+        url('fonts/proximanova-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-display: auto;
+    src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+        url('fonts/proximanova-extrabld.woff2') format('woff2'),
+        url('fonts/proximanova-extrabld.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-display: auto;
+    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+        url('fonts/proximanova-bold.woff2') format('woff2'),
+        url('fonts/proximanova-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-display: auto;
+    src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+        url('fonts/proximanova-semibold.woff2') format('woff2'),
+        url('fonts/proximanova-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-display: auto;
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+        url('fonts/proximanova-regular.woff2') format('woff2'),
+        url('fonts/proximanova-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-display: auto;
+    src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+        url('fonts/proximanova-light.woff2') format('woff2'),
+        url('fonts/proximanova-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Thin'), local('ProximaNovaT-Thin'),
+        url('fonts/proximanova-thin.woff2') format('woff2'),
+        url('fonts/proximanova-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/* Proxima Nova Condensed */
+@font-face {
+    font-family: 'Proxima Nova Cn';
+    font-display: auto;
+    src: local('Proxima Nova Condensed Black'), local('ProximaNovaCond-Black'),
+        url('fonts/proximanovacond-black.woff2') format('woff2'),
+        url('fonts/proximanovacond-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn';
+    font-display: auto;
+    src: local('Proxima Nova Condensed Extrabold'), local('ProximaNovaCond-Extrabld'),
+        url('fonts/proximanovacond-extrabld.woff2') format('woff2'),
+        url('fonts/proximanovacond-extrabld.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn';
+    font-display: auto;
+    src: local('Proxima Nova Condensed Semibold'), local('ProximaNovaCond-Semibold'),
+        url('fonts/proximanovacond-semibold.woff2') format('woff2'),
+        url('fonts/proximanovacond-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn';
+    font-display: auto;
+    src: local('Proxima Nova Condensed Bold'), local('ProximaNovaCond-Bold'),
+        url('fonts/proximanovacond-bold.woff2') format('woff2'),
+        url('fonts/proximanovacond-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn';
+    font-display: auto;
+    src: local('Proxima Nova Condensed Regular'), local('ProximaNovaCond-Regular'),
+        url('fonts/proximanovacond-regular.woff2') format('woff2'),
+        url('fonts/proximanovacond-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn';
+    font-display: auto;
+    src: local('Proxima Nova Condensed Light'), local('ProximaNovaCond-Light'),
+        url('fonts/proximanovacond-light.woff2') format('woff2'),
+        url('fonts/proximanovacond-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn';
+    font-display: auto;
+    src: local('Proxima Nova Condensed Thin'), local('ProximaNovaCond-Thin'),
+        url('fonts/proximanovacond-thin.woff2') format('woff2'),
+        url('fonts/proximanovacond-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}

@@ -1,0 +1,189 @@
+.teachers {
+    margin-top: -25px;
+    &__container {
+        /* max-width: 1862px; */
+        max-width: 100%;
+    }
+    &__wrap {
+        background: linear-gradient(180deg, #6c34a3 38.02%, #50207f 100%);
+        backdrop-filter: blur(4px);
+        border-radius: 6px;
+        padding: 48px 48px 0;
+    }
+    &__title {
+        font-family: "HeliosExtC";
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__top {
+        margin-bottom: 50px;
+    }
+    &__block {
+        position: relative;
+        user-select: none;
+        // margin-bottom: 50px;
+        &_tabs {
+            padding: 0 55px;
+            .owl {
+                &-item {
+                    display: flex;
+                }
+                &-nav {
+                    margin: 0;
+                }
+                &-prev,
+                &-next {
+                    position: absolute;
+                    top: 15%;
+                    width: 24px;
+                    height: 24px;
+                    background: url("../img/teachers/arrow.svg") center center /
+                        contain no-repeat !important;
+                        &:hover {
+                            background: url("../img/teachers/arrow-hover.svg") center center /
+                            contain no-repeat !important;
+                        }
+                    span {
+                        display: none;
+                    }
+                }
+                &-prev {
+                    left: 0;
+                }
+                &-next {
+                    right: 0;
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        &_person {
+            margin-bottom: 0;
+            .owl {
+                &-stage {
+                    display: flex;
+                }
+                &-nav {
+                    margin: 0;
+                }
+                &-prev,
+                &-next {
+                    position: absolute;
+                    top: 50%;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 7px;
+                    background-color: #fff!important;
+                    background-image:  url("../img/teachers/ar.svg")!important;
+                        background-repeat: no-repeat!important;
+                        background-size: 18px!important;
+                        background-position: center center!important;
+                    &:hover {
+                        background-color: #F1EBF7!important;
+                    }
+                    span {
+                        display: none;
+                    }
+                }
+                &-prev {
+                    left: -65px;
+                    transform: rotate(180deg);
+                }
+                &-next {
+                    right: -65px;
+                }
+                &-dots {
+                    position: absolute;
+                    left: 50%;
+                    top: 108%;
+                    transform: translateX(-50%);
+                }
+                &-dot {
+                    &.active {
+                        span {
+                            background: #606072 !important;
+                        }
+                    }
+                    span {
+                        background: transparent !important;
+                        border: 1px solid #606072 !important;
+                        width: 7.5px !important;
+                        height: 7.5px !important;
+                    }
+                }
+            }
+        }
+    }
+    &__box {
+        height: 100%;
+        &:hover {
+            .teachers__speaker_img {
+
+                transform: scale(1.1);
+                transition: transform .3s ease-in-out;
+            }
+        }
+    }
+    &__theme {
+        padding: 12px 24px;
+        border-radius: 6px;
+        cursor: pointer;
+        &:hover {
+            background: rgba(88, 29, 146, 0.33);
+            .teachers__theme_name {
+                color: rgba(255, 255, 255, 0.66);
+            }
+        }
+        &.active {
+            background: #581d92;
+            .teachers__theme_name {
+                color: #fff;
+            }
+        }
+        &_name {
+            font-family: "Proxima Nova";
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+    &__speaker {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        &_name {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 120%;
+            text-align: center;
+            letter-spacing: -0.01em;
+        }
+        &_desc {
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            opacity: 0.7;
+            font-weight: 300;
+        }
+        &_img {
+            will-change: transform;
+            transition: transform .3s ease-out;
+            padding-top: 16px;
+            margin-top: auto;
+        }
+    }
+    .owl-carousel {
+        .owl-item {
+            img {
+                max-width: 100%;
+                width: auto;
+                margin: 0 auto;
+            }
+        }
+    }
+}

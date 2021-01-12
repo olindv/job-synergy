@@ -1,0 +1,46 @@
+.main {
+    padding-top: 20px;
+
+    &__background {
+        background: url(../img/main/bg-main.png) center center / cover no-repeat;
+        .container {
+            background: url(../img/main/glow.png) center center/cover no-repeat;
+        }
+    }
+    &__content {
+        padding: 220px 0 280px;
+        text-align: center;
+        &-glow {
+            // background: url(../img/main/glow.png) center center / 100% no-repeat;
+        }
+    }
+    &__title {
+        font-family: 'HeliosExtC';
+        font-weight: bold;
+        font-size: 82px;
+        line-height: 120%;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
+    &__description {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 140%;
+        margin-bottom: 48px;
+    }
+    &__button {
+        &_link {
+            max-width: 576px;
+            padding: 20px 0;
+            margin: 0 auto;
+            text-transform: none;
+            &:hover {
+                color: #fff;
+            }
+        }
+        &-mobile {
+            display: none;
+        }
+    }
+}

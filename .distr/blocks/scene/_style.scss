@@ -1,0 +1,13 @@
+.scene {
+    background-color: #10102A;
+    margin: -21.5vw 0 -16.1vw;
+    position: relative;
+    z-index: -2;
+
+    &__photo {
+        width: fit-content;
+        background-color: #10102A;
+        /* opacity: .85; */
+        margin: 0 auto;
+    }
+}

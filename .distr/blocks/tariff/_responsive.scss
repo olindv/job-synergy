@@ -1,0 +1,402 @@
+.price {
+    @media (max-width: 1920px) {
+        background: #12112d url(../img/tariff/bg.png) no-repeat center center /
+            cover;
+
+        &:before {
+            content: none;
+        }
+    }
+    @media (max-width: 1250px) {
+        &__desc {
+            &_2 {
+                padding-left: 60px;
+            }
+        }
+    }
+
+    @media (max-width: 1199px) {
+        &__title {
+            font-size: 34px;
+            margin: 0 0 13px;
+        }
+
+        &__subtitle {
+            font-size: 19px;
+            margin-bottom: 50px;
+        }
+
+        &__desc {
+            margin: 0 -15px 65px;
+
+            &_1 {
+                .price__item {
+                    &-title {
+                        font-size: 20px;
+                    }
+
+                    &-subtitle {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        padding-bottom: 0;
+
+        .payments__slider {
+            margin: 40px -15px 0;
+        }
+        .payments__wrapper {
+            margin: 42px -15px;
+
+            &_2 {
+                margin-bottom: 0;
+            }
+        }
+
+        &__container {
+            padding: 0 30px;
+        }
+
+        &__title {
+            font-size: 26px;
+            line-height: 120%;
+            margin: 0 0 10px;
+        }
+
+        &__subtitle {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            margin: 0 0 36px;
+        }
+
+        &-payment {
+            &__title {
+                font-size: 22px;
+                line-height: 120%;
+                margin: 0 0 30px;
+            }
+
+            &__subtitle {
+                font-size: 20px;
+                line-height: 120%;
+                margin: 0 0 46px;
+            }
+        }
+
+        &__desc {
+            &_1 {
+                margin: 0;
+
+                .price__item {
+                    padding: 0 0 0 30px;
+                    margin-bottom: 18px;
+
+                    &-title {
+                        font-size: 14px;
+                        line-height: 17px;
+                    }
+
+                    &-subtitle {
+                        font-size: 12px;
+                        line-height: 17px;
+                        margin-top: 0;
+                    }
+
+                    &-title:before {
+                        width: 17px;
+                        height: 17px;
+                        left: -30px;
+                    }
+                }
+            }
+        }
+
+        &__bottom {
+            padding: 40px 15px 120px;
+            flex-direction: column;
+            margin: 0 -15px;
+
+            &-text {
+                max-width: 100%;
+                text-align: center;
+                margin: 0 0 50px;
+            }
+        }
+        .payments__wrapper_2 & {
+            &-payment__title {
+                font-size: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        padding-top: 0px;
+        /* 		background-image: url(../img/tariff/mobile/bg.png);
+ */
+        &__title {
+            &_md {
+                font-size: 32px;
+            }
+        }        
+
+        &__subtitle {
+            font-size: 16px;
+            line-height: 140%;
+        }
+
+        &__desc {
+            &_1 {
+                flex-direction: column;
+
+                .price__item {
+                    width: 100%;
+                }
+            }
+
+            &_2 {
+                padding-left: 0;
+
+                .price__item + .price__item {
+                    margin-top: 44px;
+                }
+            }
+        }
+
+        &__container {
+            padding: 0 15px;
+        }
+
+        &__item {
+            &-day {
+                font-size: 14px;
+                line-height: 143%;
+
+                &:before {
+                    content: none;
+                }
+            }
+
+            &-title {
+                font-size: 12px;
+                line-height: 145%;
+                margin-top: 3px;
+            }
+
+            &-subtitle {
+                font-size: 12px;
+                line-height: 150%;
+            }
+
+            &-link {
+                padding: 9px 15px;
+                font-size: 16px;
+            }
+        }
+
+        &-payment {
+            &__title {
+                margin-bottom: 16px;
+            }
+
+            &__subtitle {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+                margin-bottom: 26px;
+                padding: 0px 50px;
+                svg {
+                    width: 12px;
+                    height: auto;
+                }
+            }
+        }
+
+        .payments__slider {
+            overflow: hidden;
+            margin: auto;
+        }
+        .payments__wrapper_1 & {
+            &-payment__title {
+                margin-bottom: 35px;
+            }
+        }
+    }
+}
+
+.price-card {
+    @media (max-width: 991px) {
+        &__cost {
+            font-size: 44.0667px;
+        }
+
+        &__header {
+            font-size: 19px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        width: 50%;
+        margin-bottom: 32px;
+
+        &#price-subs-gold {
+            transform: none;
+        }
+
+        &__header {
+            font-size: 19.2531px;
+        }
+
+        &__discount {
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        &__body {
+            padding: 34px 15px;
+            border-radius: 0 0 6px 6px;
+        }
+
+        &__cost {
+            font-size: 45.5658px;
+
+            &-desc {
+                font-size: 16.7908px;
+                margin-bottom: 23px;
+            }
+        }
+
+        &__button {
+            max-width: 200px;
+            font-size: 15.7526px;
+            padding: 13px 15px;
+        }
+
+        &__item {
+            &-title {
+                font-size: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        width: 100%;
+
+        .payments__wrapper_1 & {
+            width: 100%;
+            max-width: 100%;
+            position: absolute;
+            display: none;
+            margin-bottom: 0;
+
+            &.active {
+                display: flex;
+                position: static;
+                opacity: 1;
+            }
+
+            &__header {
+                display: none;
+            }
+        }
+
+        .payments__wrapper_2 & {
+            max-width: unset;
+            padding: 0;
+            height: fit-content;
+
+            &#price-subs-gold {
+                .price-card {
+                    &__item {
+                        margin-bottom: 13px;
+                        &:last-child:after {
+                            top: -6px;
+                            right: 40px;
+                        }
+                        &-title,
+                        &-subtitle {
+                            font-size: 12px;
+                        }
+                    }
+                    &__header {
+                        font-size: 13px;
+                    }
+                    &__cost {
+                        margin-bottom: 6px;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        &__header {
+            font-size: 14px;
+            line-height: 100%;
+            padding: 12px 35px;
+        }
+        &__body {
+            padding: 14px 21px 21px;
+            min-height: 120px;
+        }
+
+        &__item {
+            line-height: 1;
+            &-title {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                font-weight: bold;
+                &.bold {
+                    font-weight: bold;
+                }
+            }
+            &-subtitle {
+                font-size: 12px;
+				line-height: 14px;
+				margin-bottom: 0;
+				&.small {
+					font-size: 10px;
+					line-height: 15px;
+				}
+            }
+
+            & + .price-card__item:before {
+                width: 13.34px;
+                height: 15.47px;
+                margin: 10px auto;
+            }
+            &:last-child {
+                margin-bottom: 10px;
+            }
+        }
+        &__cost {
+            font-size: 31px;
+			line-height: 110%;
+			&-size {
+				font-size: 28px;
+				line-height: 110%;
+				.rouble {
+					font-size: 25px;
+				}
+			}
+            .rouble {
+                font-size: 27px;
+            }
+        }
+        &__cost-desc {
+            font-size: 10px;
+            margin-bottom: 19px!important;
+        }
+        &__button {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 13px;
+			padding: 13px;
+
+        }
+    }
+}

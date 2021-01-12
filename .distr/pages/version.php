@@ -1,0 +1,3 @@
+<?php
+
+$title = 'Synergy.Online';

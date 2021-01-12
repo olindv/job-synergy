@@ -1,0 +1,43 @@
+.knowledge {
+    @media(max-width: 1199px) {
+
+        &__subtitle {
+            font-size: 18px;
+            margin: 0 auto 40px;
+        }
+        &__box {        
+            &_1 {
+              margin-bottom: 30px;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        padding-top: 80px;
+    }
+    @media(max-width: 767px) {
+
+        &__subtitle {
+            margin: 0 auto 30px;
+        }
+        &__box {        
+            &_1 {
+              margin-bottom: 20px;
+            }
+        }
+    }
+    @media(max-width: 575px) {
+        padding-top: 58px;
+        padding-bottom: 48px;
+        &__title {
+            font-size: 22px;
+            line-height: 120%;
+            margin-bottom: 6px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            line-height: 140%;
+            font-weight: 500;
+            margin-bottom: 36px;
+        }
+    }
+}

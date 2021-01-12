@@ -1,0 +1,86 @@
+.main {
+    @media(max-width: 1620px) {
+        &__background {
+            background-position: top left;
+        }
+    }
+
+    @media(max-width: 1199px) {
+        &__title {
+            font-size: 64px;
+        }
+        &__description {
+            font-size: 22px;
+            margin-bottom: 40px;
+        }
+        &__button {
+            &_link {
+                font-size: 18px;
+                max-width: 467px;
+                padding: 16px 0;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        &__content {
+            padding: 180px 0 240px;
+        }
+        &__title {
+            font-size: 50px;
+        }
+        &__description {
+            font-size: 18px
+        }
+    }
+    @media(max-width: 575px) {
+        padding-top: 0;
+        &__background {
+            .container {
+                // background: url(../img/main/glow.png) center -50px/cover no-repeat;
+                background-position: center -50px;
+            }
+        }
+        &__content {
+            padding: 85px 0 140px;
+        }
+        &__title {
+            font-size: 44px;
+            line-height: 120%;
+            margin-bottom: 18px;
+        }
+        &__description {
+            font-size: 16px;
+            line-height: 140%;
+            font-weight: 500;
+        }
+        &__button {
+            &_link {
+                max-width: 301px;
+                padding: 16px 0;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 13px;
+            }
+            &-mobile {
+                display: block;
+            }
+            &-desktop {
+                display: none;
+            }
+        }
+    }
+    @media(max-width: 480px) {
+        &__background {
+            background-image: url(../img/main/mobile/bg-main.png);
+        }        
+        &__content {
+            padding: 105px 0 120px;
+        }
+    }
+    
+    @media(max-width: 330px) {        
+        &__content {
+            padding: 70px 0 96px;
+        }
+    }
+}

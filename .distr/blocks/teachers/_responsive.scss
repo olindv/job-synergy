@@ -1,0 +1,114 @@
+.teachers {
+    @media (max-width: 1440px) {
+        &__container {
+            max-width: 1392px;
+        }
+    }
+    @media (max-width: 991px) {
+        margin-top: 0;
+        &__container {
+            max-width: unset;
+            padding: 0;
+        }
+        &__wrap {
+            padding: 40px 0 0;
+            border-radius: 0;
+        }
+        &__top {
+            padding: 0;
+        }
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+        &__top {
+            margin-bottom: 39px;
+        }
+        &__theme {
+            padding: 10px 20px;
+            &_name {
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+        &__speaker {
+            &_name {
+                font-size: 16px;
+                line-height: 120%;
+            }
+            &_desc {
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+        &__block {
+            &_tabs {
+                padding-right: 0;
+            }
+            &_person {
+                .owl {
+                    &-dot {
+                        span {
+                            width: 6.25px !important;
+                            height: 6.25px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        &__wrap {
+            padding-top: 24px;
+        }
+        &__title {
+            margin-bottom: 24px;
+            font-size: 22px;
+            line-height: 120%;
+        }
+        &__top {
+            margin-bottom: 24px;
+        }
+        &__speaker {
+            &_name {
+                font-size: 12px;
+                line-height: 120%;
+                margin-bottom: 4px;
+            }
+            &_desc {
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+        &__theme {
+            padding: 6px 10px;
+            border-radius: 4px;
+            &_name {
+                font-size: 16px;
+                line-height: 13px;
+                font-weight: 600;
+            }
+        }
+        &__block {
+            &_tabs {
+                padding-left: 12px;
+                // margin-bottom: 24px;
+            }
+            &_person {
+                .owl {
+                    &-dots {
+                        top: 100%;
+                        margin-top: 5px!important;
+                    }
+                    &-dot {
+                        span {
+                            width: 4px !important;
+                            height: 4px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

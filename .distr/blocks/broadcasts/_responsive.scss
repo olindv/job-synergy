@@ -1,0 +1,180 @@
+.broadcasts {
+    @media(max-width: 1620px) {        
+        &__slide {            
+            width: 300px;
+        }
+    }
+
+    @media(max-width: 1440px) {
+        &__slider {
+            &:before,
+            &:after {
+                width: 260px;
+            }
+            &:before {
+                background: linear-gradient(-270deg, rgba(39, 18, 78, 0.85) 4%, rgba(16, 17, 42, 0.45) 33.06%, rgba(39, 18, 78, 0) 99.06%);
+            }
+            &:after {
+                background: linear-gradient(270deg, rgba(39, 18, 78, 0.85) 4%, rgba(16, 17, 42, 0.45) 33.06%, rgba(39, 18, 78, 0) 99.06%);
+            }
+        }
+    }
+
+    @media(max-width: 1199px) {
+        
+        &__title {
+            margin-bottom: 32px;
+            font-size: 34px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        &__live {
+            font-size: 9px;        
+            padding: 4px 5px;
+            svg {
+                width: 12px;
+                height: auto;
+            }
+
+            &-icon {
+                margin-right: 5px;
+            }
+        }
+
+        &__date {
+            font-size: 11px;
+            margin-bottom: 19px;
+        }
+
+        &__name {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        &__info {    
+          padding: 26px 26px 35px;
+        }
+
+        &__desc {
+            font-size: 12px;
+            letter-spacing: 0.1px;
+        }
+
+        &__slider {
+            margin-bottom: 70px;
+            &:before,
+            &:after {
+                content: none;
+            }
+        }
+
+        &__slider-owners {
+            margin-bottom: 0;
+        }
+
+        &__slider-forums & {
+            &__info {
+                padding: 37px 25px 37px 25px;
+            }
+        }
+
+        &__item {            
+            min-height: 430px;
+        }
+
+        &__slide {
+            width: 260px;
+            &:hover {
+                transform: none;
+                transition: none;
+            }
+        }
+    }
+
+    @media(max-width: 767px) {        
+        
+        &__title {
+            margin-bottom: 23px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            line-height: 150%;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        &__date {
+            font-size: 11px;
+            line-height: 15px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        &__name {
+            // font-size: 14px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            line-height: 120%;
+            letter-spacing: 0.13px;
+        }
+
+        &__info {    
+          padding: 18px 18px 25px;
+        }
+
+        &__desc {
+            letter-spacing: 0.13px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__item {            
+            min-height: 374px;
+        }
+
+        &__slider {
+            margin-bottom: 50px;
+        }
+
+        &__slider-owners {
+            margin-bottom: 0;
+        }
+
+        &__slide {
+            width: 222px;
+        }
+
+        &__slider-forums & {
+            &__info {
+                padding: 29px 22px;
+            }
+        }
+        &__slider-mk &,
+        &__slider-owners &{
+            &__name {
+                font-size: 18px;
+            }
+        }
+        &__live {
+            &-text {
+                font-size: 10px;
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &__title {
+            font-size: 26px;
+            line-height: 120%;
+            margin-bottom: 10px;
+        }
+    }
+}

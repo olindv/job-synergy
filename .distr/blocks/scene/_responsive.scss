@@ -1,0 +1,18 @@
+.scene{
+    @media(max-width: 1440px) {
+        &__photo {
+            img {
+                transform: scale(1.4);
+            }
+        }
+    }
+    @media (max-width: 991px) {
+    }
+
+    @media (max-width: 767px) {
+        margin: -26.5vw 0 -11.1vw;
+    }
+    @media (max-width: 480px) {
+        margin: -39.5vw 0 -28.1vw;
+    }
+}

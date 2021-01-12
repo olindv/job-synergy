@@ -1,0 +1,44 @@
+.header {
+    padding: 9.5px 0;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__login {
+        &_img {
+            margin-right: 6px;
+        }
+    }
+    .navigation {
+        &__list {
+            display: flex;
+        }
+        &__item {
+            margin-right: 32px;
+            display: flex;
+            align-items: center;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &__text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #88868B;
+            &:hover {
+                color: #DCD7E4;
+            }
+        }
+    }
+}

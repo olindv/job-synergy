@@ -1,0 +1,17 @@
+
+@media(max-width: 1199px) {
+    .section__title {
+        font-size: 30px;
+    }
+    .swiper {
+        &__btn-prev,
+        &__btn-next {
+            display: none;
+        }
+    }
+}
+@media(max-width: 767px) {    
+    .section__title {
+        font-size: 18px;
+    }
+}

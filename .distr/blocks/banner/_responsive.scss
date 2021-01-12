@@ -1,0 +1,36 @@
+.banner {
+    @media (max-width: 1199px) {
+    }
+    @media (max-width: 991px) {
+        // padding: 10px 0 8px;
+        &__content {
+            padding: 10px 0 8px;
+            font-size: 12.9778px;
+            line-height: 15px;
+        }
+    }
+    @media (max-width: 575px) {
+        // padding: 6.5px;
+        &__content {
+            padding: 6.5px;
+            font-size: 8px;
+            line-height: 9px;
+
+            font-size: 10px;
+            line-height: 120%;
+            padding: 12px 0;
+            font-weight: 500;
+        }
+        &__detail {
+            &_text {
+                display: none;
+            }
+        }
+    }
+    
+    @media (max-width: 330px) {
+        &__content {
+            svg {display: none;} 
+        }
+    }
+}

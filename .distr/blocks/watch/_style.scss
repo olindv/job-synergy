@@ -1,0 +1,67 @@
+.watch {
+    // background: url(../img/watch/watch-bg.png) center center / cover no-repeat;
+    // padding: 290px 0;
+    // margin-top: -170px;
+    position: relative;
+    padding: 13vw 0;
+    margin-top: -125px;
+    &:before {
+        content: '';
+        position: absolute;
+        background: url(../img/watch/watch-bg.png) center center/cover no-repeat;
+        top: -250px;
+        bottom: -250px;
+        left: 0;
+        right: 0;
+    }
+    &__title {
+        font-family: "HeliosExtC";
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 126%;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &__description {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #c2cff2;
+        text-align: center;
+
+    }
+    &__row {
+        &-1 {
+            margin-bottom: 50px;
+            max-width: 720px;
+            margin: 0 auto 50px;
+        }
+    }
+    &__store {
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: center;
+        &_img {
+            margin-right: 24px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__button {
+        &_link {
+            max-width: 576px;
+            padding: 20px 0;
+            margin: 0 auto;
+            text-transform: none;
+            &:hover {
+                color: #fff;
+            }
+        }
+        &-mobile {
+            display: none;
+        }
+    }
+}

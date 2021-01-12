@@ -1,0 +1,150 @@
+.prehead {
+    @media (max-width:1440px) {
+        &__dropdown {
+            &:before {
+                content: unset;
+            }
+            &_inner {
+                padding: 30px 0 40px;
+            }
+        }
+        .corporation {
+            grid-template-columns: 276px 1fr;
+            &-card {
+                padding: 24px 20px;
+                border-radius: 4px;
+                &__title {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                &__description {
+                    font-size: 12px;
+                    line-height: 16px;
+                    margin-bottom: 16px;
+                }
+                &__group {
+                    &:not(:last-child) {
+                        margin-bottom: 16px;
+                    }
+                }
+                &__content {
+                    &_type {
+                        &-grid {
+                            grid-row-gap: 8px;
+                            grid-column-gap: 12px;
+                        }
+                    }
+                }
+                &__name {
+                    font-size: 12px;
+                    line-height: 14px;
+                    margin-bottom: 8px;
+                }
+                &__item {
+                    line-height: 1;
+                    font-size: 12px;
+                    svg {
+                        width: 12px;
+                        height: 12px;
+                        margin-right: 6px;
+                    }
+                }
+            }
+            &-nav {
+                &__block {
+                    &:not(:last-child) {
+                        margin-bottom: 28px;
+                    }
+                }
+                &__title {
+                    font-size: 10px;
+                    line-height: 12px;
+                    margin-bottom: 12px;
+                }
+                &__link {
+                    font-size: 12px;
+                    line-height: 14px;
+                    &:not(:last-child) {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 1199px) {        
+        font-size: 10px;
+    }
+    @media(max-width: 767px) {
+        font-size: 10px;
+        line-height: 12px;
+        &__language {
+            margin-right: 14px;
+        }
+        .corporation {
+            grid-template-columns: 1fr;
+            &-card {
+                margin-bottom: 36px;
+                &__title {
+					font-weight: 500;
+					line-height: 15px;
+				}
+				&__name {
+					font-weight: 500;
+				}
+            }
+            &-nav {
+                display: grid;
+                grid-row-gap: 36px;
+                grid-template-columns: repeat(2, 1fr);
+                &__col {
+                    &:last-child {
+                        display: flex;
+                        grid-column-start: span 2;
+                        .corporation-nav__block {
+                            width: 50%;
+                            margin-bottom: 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        font-size: 10px;
+        line-height: 12px;
+        &__language {
+            &_flag {
+                margin-right: 4px;
+                svg {
+                    max-width: 10px;
+                }
+            }
+
+            &_en {
+                display: none;
+            }
+            &_en_sm {
+                display: inline-block !important;
+            }
+        }
+        &__entrance {
+            &_logo {
+                margin-right: 4px;
+                svg {
+                    max-width: 9.5px;
+                }
+            }
+            &_desktop {
+                display: none;
+            }
+        }
+        &__services {
+            &_mobile  {
+                display: block;
+            }
+            &_desktop {
+                display: none;
+            }
+        }
+    }
+}
